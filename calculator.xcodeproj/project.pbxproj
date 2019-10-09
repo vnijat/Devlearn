@@ -15,7 +15,6 @@
 		365FE0EB234A105600C03705 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 365FE0E9234A105600C03705 /* LaunchScreen.storyboard */; };
 		365FE0F6234A105600C03705 /* calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365FE0F5234A105600C03705 /* calculatorTests.swift */; };
 		365FE101234A105600C03705 /* calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365FE100234A105600C03705 /* calculatorUITests.swift */; };
-		36D3C697234DDC60005C35AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36D3C696234DDC60005C35AE /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +49,6 @@
 		365FE0FC234A105600C03705 /* calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		365FE100234A105600C03705 /* calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculatorUITests.swift; sourceTree = "<group>"; };
 		365FE102234A105600C03705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		36D3C696234DDC60005C35AE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../Projects/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +79,6 @@
 		365FE0D2234A105500C03705 = {
 			isa = PBXGroup;
 			children = (
-				36D3C696234DDC60005C35AE /* Main.storyboard */,
 				365FE0DD234A105500C03705 /* calculator */,
 				365FE0F4234A105600C03705 /* calculatorTests */,
 				365FE0FF234A105600C03705 /* calculatorUITests */,
@@ -238,7 +235,6 @@
 				365FE0EB234A105600C03705 /* LaunchScreen.storyboard in Resources */,
 				365FE0E8234A105600C03705 /* Assets.xcassets in Resources */,
 				365FE0E6234A105500C03705 /* Main.storyboard in Resources */,
-				36D3C697234DDC60005C35AE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
