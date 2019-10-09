@@ -33,7 +33,8 @@ class ViewController: UIViewController {
  
       
     @IBAction func bformul(_ sender: UIButton) {
-        if result.text != "" && sender.tag != 10 && sender.tag != 15 {
+        if result.text != "" && sender.tag != 10 && sender.tag != 15 && sender.tag != 68 {
+          
             if sender.tag == 40 {
                 firstNumb = -Double(result.text!)!
                 result.text = "\(firstNumb)"
@@ -62,11 +63,7 @@ class ViewController: UIViewController {
             mathSign = true;
             dotisPlaced = false;
         }
-        else if operation =    {
-            
-            
-            
-        }
+       
         else if sender.tag == 15 {//hesabla
             if operation == 11 {
                 result.text = String(firstNumb / screenNumber)
@@ -82,6 +79,11 @@ class ViewController: UIViewController {
             }
            
         }
+        else if operation == 68 {
+                result.text = String(sqrt(firstNumb))
+
+            }
+     
         
         
         else if sender.tag == 10 {
